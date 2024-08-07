@@ -1,6 +1,8 @@
   # Linguagens e Técnicas de Programação 
-  XXXX
+  Objetivo: Identificar características desejáveis para linguagens de programação, para que possam ser entendíveis, analisadas e incorporadas às LPs utlizando paradigmas e tipologias.
   Disciplinada por Luciana Pavani de Paula Bueno.
   
   ## Vamos Começar 🚀  
-  ## XX/08/2024
+  ## 06/08/2024 - Início
+  **Padlet**: Quais são as características mais importantes para uma linguagem de programação moderna?
+
