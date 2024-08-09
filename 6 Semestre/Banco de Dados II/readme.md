@@ -3,4 +3,5 @@
   Disciplinada por Sérgio Ricardo Borges Junior.
   
   ## Vamos Começar 🚀  
-  ## XX/08/2024
+  ## 08/08/2024
+  **Ementa:**
