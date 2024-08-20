@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "program": "C:/Users/Lagoa/OneDrive/Área de Trabalho/pes/faculdade/6 Semestre/Programação para Dispositivos Móveis/projects/classes-12-08.dart",
+            "name": "Dart & Flutter",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
