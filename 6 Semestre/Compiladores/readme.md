@@ -28,3 +28,23 @@
   ```c) while I<200  do I := J + I>;```
   ![d](https://github.com/DevIago15/cco-facul/blob/master/6%20Semestre/Compiladores/img/fluxograma.png)
   ```e) "Aqui@temos um arroba"```
+
+  ## 20/08/2024 - Análise Sintática
+  Recebe da análise léxica código fonte na forma de tokens e verifica a estrutura do programa.
+  ![fluxograma1]()
+
+  Utiliza os primeiros componentes dos tokens produzidos pela análise léxica para criar uma representação intermediária tipo árvore, que mostra a estrutura gramatical da sequência de tokens.
+  É o "coração do compilador", por verificar se a sequência de tokens, forma um programa válido.
+
+  ![exemplo1]()
+  ![exemplo1-resolvido]()
+  ![exemplo2]()
+  ![exemplo2-resolvido]()
+
+  Para especificar a estrutura das linguagens de programação, são usadas as gramaticas livres de contexto. Então, o analizador sintático é constituido pela gramatica que descreve a linguagem fonte e que são as construções válidas na linguagem.
+
+  Outra função da análise sintática é a detecção de erros de sintaxe, identificando a posição e o tipo de erro ocorrido . Mesmo que os erros ocorram,  o AS devem tentar recupera-los, prosseguindo a análise do texto restante.
+
+  Tarefa: Escreva a AL e a AS do comando em C: if(a-10 > b * 2) = b;
+
+  
