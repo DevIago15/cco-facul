@@ -48,3 +48,37 @@ Tipos são sempre objetos, os mais básicos:
 
 ## 12/08/2024
 Aula totalmente prática, pode ser encontrada em ```/projects```
+
+## 26/08/2024
+Ciclo de Vida
+No flutter, tudo é widget, ou seja, todos os elementos utilizados para a contenção de UI são widgets. Uma caixa de texto, botão, tela, it são widgets, ligados entre si através de uma árvore. O comportamento de um widget sempre será o mesmo,  desenhar algo na tela.
+    - O sistema base dos widgets se dividem em duas classes:
+        - Stateless: sem estado
+        - Stateful: com estado
+
+Por definição, um widget sem estado não pode se redesenhar, mas pode ser atualizado. Um widget com estado, pode se redesenhar ou seja, tem controle sobre UI. Ele cria um objeto State, onde seu estado é guardado. O método setState() notifica que um estado foi alterado, e assim reconstruir o widget com valoers atualizados.
+~~~dart
+class MeuApp extends StateLessWidget {
+        @override
+        Widget build(BuildContext context){
+            return Text('Home');
+        }
+    }
+
+
+    class MyButton extends StateFullWidget{
+        @override
+        MyButtonState createState() => MyButtonState();
+    }
+
+    class MyButtonState extends State <MyButton>{
+        void AlgumaCoisa(){
+            setState();
+        }
+    }
+
+    Widget build (BuildContext context){
+        return Text('blabla');
+    }
+~~~
+![arvore](arvore.png)

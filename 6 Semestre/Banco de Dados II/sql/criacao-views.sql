@@ -81,6 +81,9 @@ go
 
 select * from vw_Produtos
 
+-- Função Escalar => função escalar é uma relação entre dois conjuntos que possui um retorno só
+
+
 
 
 
