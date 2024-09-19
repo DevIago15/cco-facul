@@ -8,7 +8,7 @@
   Compiladores são programas que traduzem de uma linguagem de alto nível para linguagem de máquina.
   UM compilador é constituído internamente por fases. Cada fase no processo de tradução constitui-se com a seguinte por meio de uma linguagem intermediária adequada.
 
-  ![Fluxograma](https://github.com/DevIago15/cco-facul/blob/master/6%20Semestre/Compiladores/img/fluxograma.png)
+  ![fluxograma](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/fluxograma.png)
 
   Análise Léxica (AL)
   Lê o fluxo de caracteres que compõe o programa fonte => varredura de uma sequência de caracteres.
