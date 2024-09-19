@@ -3,7 +3,7 @@
   Disciplinada por Luciana Pavani de Paula Bueno.
   
   ## Vamos Começar 🚀  
-  ## 13/08/2024 - Início
+  ## 13/08/2024 - Início - Prova: 24/04
   O processo de tradução:
   Compiladores são programas que traduzem de uma linguagem de alto nível para linguagem de máquina.
   UM compilador é constituído internamente por fases. Cada fase no processo de tradução constitui-se com a seguinte por meio de uma linguagem intermediária adequada.
@@ -36,10 +36,8 @@
   Utiliza os primeiros componentes dos tokens produzidos pela análise léxica para criar uma representação intermediária tipo árvore, que mostra a estrutura gramatical da sequência de tokens.
   É o "coração do compilador", por verificar se a sequência de tokens, forma um programa válido.
 
-  ![exemplo1]()
-  ![exemplo1-resolvido]()
-  ![exemplo2]()
-  ![exemplo2-resolvido]()
+  ![exemplo1-resolvido](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/exemplo1-resolvido.png)
+  ![exemplo2-resolvido](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/exemplo-2-resolvido.png)
 
   Para especificar a estrutura das linguagens de programação, são usadas as gramaticas livres de contexto. Então, o analizador sintático é constituido pela gramatica que descreve a linguagem fonte e que são as construções válidas na linguagem.
 
@@ -47,4 +45,14 @@
 
   Tarefa: Escreva a AL e a AS do comando em C: if(a-10 > b * 2) = b;
 
-  
+  ## 03/09/2024 - Otimizador de Código Fonte
+  Fase que faz algumas transformações no código intermediário com o objetivo de produzir um código objeto melhor. Normalmente, melhor significa mais rápido, mas outros objetivos podem ser desejados como um código menor ou um código objeto que consuma menos energia. O número de otimizações de código realizados por diferentes compiladores varia muito. Aqueles que exploram ao máximo as oportunidades de otimizações são chamados "compiladores otimizadores". Quanto mais otimizações, mais tempo é gasto nessa fase. Não há otimizações simples que melhoram significativamente o tempo de execução de programa objeto sem atrasar muito a compilação.
+
+  Exemplos:
+  ![]()
+  ![]()
+
+  Gerador de Código Objeto
+  Fase que gera o código para a máquina alvo. É nessa fase que as propriedades da máquina alvo se tornam o fator principal. A depender da arquitetura da máquina, são selecionados os registradores, ou localizações de memoria para cada variável do programa, com uma cuidadosa atribuição. Cada máquina possui um conjunto diferente de instruções e de meios de acesso ao S.O para refletir os comandos do programa fonte. Exemplos em linguagem simbólica para um hardware hipotético:
+  ![]()
+  ![]()

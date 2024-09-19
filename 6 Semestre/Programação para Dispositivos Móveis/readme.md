@@ -82,3 +82,30 @@ class MeuApp extends StateLessWidget {
     }
 ~~~
 ![arvore](arvore.png)
+
+## 16/09/2024 - Resumão
+- Dart: linguagem de programação, fortemente tipada. Pode ser compilada em JIT(just in time => compila a aplicação por partes) ou OAT(compila a aplicação inteira).
+    - Todos os tipos são objetos. Os tipos básicos (build-types):
+        - Number (int, double e num)
+        - String
+        - Boolean (bool)
+        - Dynamic
+        - Function, List[] e Map{}
+
+- Flutter: Framework de desenvolvimento multiplataforma
+- Widgets: blocos de construção com estado: blocos de construção com estado. (Estado: informação alterada em tempo de execução.)
+- Stateful: altera o estado de um componente
+    - setState: método que altera o estado e chama o método build para reconstruir o widget com valores atualizados.
+    - State: onde o estado e guardado
+- Stateless: o estado mostra o mesmo valor em todo o ciclo de vida. O método *build* é chamado "apenas 1x".
+- Widgets de Interface: Text, TextField, Iconbutter, image
+- Widgets de Layout: Row, Column, Center, Sizebox, Container, Scaffold
+~~~dart
+class _Carro // _ é private (somente a mesma pasta acessa)
+{
+    String cor;
+    int doc;
+    Carro(this.cor, this.doc); // construtor
+    Carro.Outro(this.cor);
+}
+~~~~

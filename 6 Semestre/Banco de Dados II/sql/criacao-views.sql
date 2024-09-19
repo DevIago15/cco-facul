@@ -16,7 +16,7 @@ select * from vw_PedTotal
 select * from pedidos
 
 update pedidos set ped_status = 2
-where ped_numero = 2 or ped_numero = 4 -- não pode ser OR aqui nunca, sempre OR 
+where ped_numero = 2 or ped_numero = 4 -- não pode ser AND aqui nunca, sempre OR 
 go
 
 create view vw_PedidoInfo
@@ -81,7 +81,7 @@ go
 
 select * from vw_Produtos
 
--- Função Escalar => função escalar é uma relação entre dois conjuntos que possui um retorno só
+
 
 
 
