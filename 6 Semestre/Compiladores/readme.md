@@ -23,15 +23,15 @@
   Como reconhecer tokens?
   R: Automâtos finitos ou expressões regulares
   *Exemplos:*
-  ![a](https://github.com/DevIago15/cco-facul/blob/master/6%20Semestre/Compiladores/img/fluxograma.png)
-  ![b](https://github.com/DevIago15/cco-facul/blob/master/6%20Semestre/Compiladores/img/fluxograma.png)
+  ![a](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/a.png)
+  ![b](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/b.png)
   ```c) while I<200  do I := J + I>;```
-  ![d](https://github.com/DevIago15/cco-facul/blob/master/6%20Semestre/Compiladores/img/fluxograma.png)
+  ![d](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/d.png)
   ```e) "Aqui@temos um arroba"```
 
   ## 20/08/2024 - Análise Sintática
   Recebe da análise léxica código fonte na forma de tokens e verifica a estrutura do programa.
-  ![fluxograma1]()
+  ![fluxograma1](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/fluxo1.png)
 
   Utiliza os primeiros componentes dos tokens produzidos pela análise léxica para criar uma representação intermediária tipo árvore, que mostra a estrutura gramatical da sequência de tokens.
   É o "coração do compilador", por verificar se a sequência de tokens, forma um programa válido.
@@ -49,7 +49,7 @@
   Fase que faz algumas transformações no código intermediário com o objetivo de produzir um código objeto melhor. Normalmente, melhor significa mais rápido, mas outros objetivos podem ser desejados como um código menor ou um código objeto que consuma menos energia. O número de otimizações de código realizados por diferentes compiladores varia muito. Aqueles que exploram ao máximo as oportunidades de otimizações são chamados "compiladores otimizadores". Quanto mais otimizações, mais tempo é gasto nessa fase. Não há otimizações simples que melhoram significativamente o tempo de execução de programa objeto sem atrasar muito a compilação.
 
   Exemplos:
-  ![]()
+  ![](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/pre-c.png)
   ![]()
 
   Gerador de Código Objeto
