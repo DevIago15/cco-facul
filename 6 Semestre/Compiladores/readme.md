@@ -60,17 +60,17 @@
   ## 01/10/2024 - Expressões Regulares (ER) - Início ao Segundo Semestre
   - especificação e reconhecimento de padrões de caracteres
   - ER básicas (ER são padrões)
-  ![compiladores_compiladores]()
+  ![compiladores_compiladores](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/compiladores_compiladores.png)
   - Operações básicas com ER:
     - * escolha entre alternativas
-    ![escolha_entre_alternativas]()
+    ![escolha_entre_alternativas](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/escolha_entre_alternativas.png)
     - * concatenações
-    ![concatenacoes]()
+    ![concatenacoes](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/concatenacao.png)
     - * repetições
-    ![repeticoes]()
+    ![repeticoes](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/repeticao.png)
 
     Prioridade do compilador:
-    ![prioridade]()
+    ![prioridade](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Compiladores/img/prioridade.png)
 
    Exercício:
    1 - Considere Alfabeto = {a, b, c}. Escreva uma ER para o conjunto de todas as cadeias sobre esse alfabeto que contém exatamente um b.
