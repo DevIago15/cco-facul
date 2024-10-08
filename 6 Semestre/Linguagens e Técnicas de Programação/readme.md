@@ -16,5 +16,5 @@
 
   * não há um bom ou ruins
   * tendência = integração
-  ![tipologia]()
+  ![tipologia](https://github.com/DevIago15/cco-facul/blob/main/6%20Semestre/Linguagens%20e%20T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o/img/tipologia.png)
 
