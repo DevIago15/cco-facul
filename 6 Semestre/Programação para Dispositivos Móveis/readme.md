@@ -108,4 +108,22 @@ class _Carro // _ é private (somente a mesma pasta acessa)
     Carro(this.cor, this.doc); // construtor
     Carro.Outro(this.cor);
 }
-~~~~
+~~~
+
+## 30/09/2024 - Novo projeto
+1 - Adicionar pasta images e uma imagem na pasata (logo.png). Será um ícone então escolha uma imagem "pequena".
+2 - Fazer a modificação pubsec.yam para registrar a imagem.
+3 - Criar pastas
+    - models
+    - screens
+    - widgets
+Na pasta models, adicionar
+    - notes.dart
+Nesse arquivo:
+~~~dart
+class Notes {
+    final String titulo;
+    final String descricao;
+    Note ({required this.titulo, required this.descricao});
+}
+~~~

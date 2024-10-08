@@ -56,3 +56,28 @@
   Fase que gera o código para a máquina alvo. É nessa fase que as propriedades da máquina alvo se tornam o fator principal. A depender da arquitetura da máquina, são selecionados os registradores, ou localizações de memoria para cada variável do programa, com uma cuidadosa atribuição. Cada máquina possui um conjunto diferente de instruções e de meios de acesso ao S.O para refletir os comandos do programa fonte. Exemplos em linguagem simbólica para um hardware hipotético:
   ![]()
   ![]()
+
+  ## 01/10/2024 - Expressões Regulares (ER) - Início ao Segundo Semestre
+  - especificação e reconhecimento de padrões de caracteres
+  - ER básicas (ER são padrões)
+  ![compiladores_compiladores]()
+  - Operações básicas com ER:
+    - * escolha entre alternativas
+    ![escolha_entre_alternativas]()
+    - * concatenações
+    ![concatenacoes]()
+    - * repetições
+    ![repeticoes]()
+
+    Prioridade do compilador:
+    ![prioridade]()
+
+   Exercício:
+   1 - Considere Alfabeto = {a, b, c}. Escreva uma ER para o conjunto de todas as cadeias sobre esse alfabeto que contém exatamente um b.
+   R: cadeias: = abc, bac, acb, b, ab, ba, bc... ER = (a | c) * b (a | c)*
+
+   2 - Com o mesmo Alfabeto anterior, encontre uma ER que considere o conjunto de todas as cadeias de caracteres que contem no maximo um b.
+   R:  (a | c)* | (a | c)* b (a | c)*
+
+   3 - ER sobre Alfabeto que considere o conjunto de todas as cadeias de caracteres compostas por um único b, rodeado pelo mesmo número de a's.
+   R: ER()
