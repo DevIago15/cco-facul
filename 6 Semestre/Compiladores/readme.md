@@ -81,3 +81,38 @@
 
    3 - ER sobre Alfabeto que considere o conjunto de todas as cadeias de caracteres compostas por um único b, rodeado pelo mesmo número de a's.
    R: ER()
+
+   ## 08/10/2024
+   - Uma ou mais repetições (o "tem que ter"): +
+  Ex: 7 + 0
+  bi + p
+  (0 | 1)+
+  - Qualquer caractere: "-"
+  Casa com qualquer coisa (símbolo de E). É muito abrangente
+  Exemplos:
+  n.o
+  e.tendido
+  .*b.*
+  - Um intervalo de caracteres: "[]"
+  É bem mais exigente, exemplos:
+  [aeiou]
+  n[ãa]o
+  - Intervalos múltiplos (intervalos em listas) "[-]": segue a ordenação do conjunto de caracteres ASCII.
+  - Qualquer caractere fora de um conjunto ~ ou ^, exemplos:
+    - ^(a | b | c)
+    - lista negada
+      - [^abc]
+      - [^0-0]
+  - Subexpressões opcionais: "?" pode ter ou não ter
+  Exemplos:
+    - falar?
+    - (0 | 1)?
+    fala[r!]?
+  Chaves: {n, m}
+  repete de n a m
+  Exemplos: (a | b) {1, 3}
+  - a{3,}
+  - [0-9]{3}
+  - Escape: "\"
+    - Usa o metacaractere literal ex: "\*"
+

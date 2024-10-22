@@ -127,3 +127,26 @@ class Notes {
     Note ({required this.titulo, required this.descricao});
 }
 ~~~
+
+## 21/10/2024
+Navigator:
+- Utiliza-se o conceito de pilha p/ navegar no flutter
+- LIFO (Last in, first out)
+- Push (): para navegar até a tela x
+- Pop (): para voltar a página anterior
+
+Form: Formulários, atua como container p/ agrupar e validar vários outros widgets usados como entrada de dados como "Textfield"
+- Cada campo deve ser agrupado em um FormField
+
+SafeArea: Captura as dimensões da tela e combina com a estrutra do app
+
+GestureDetector:
+- não visual, usado principalmente p/ detectar gestos
+- detecta determinado gesto do widget filho, e despacha vários eventos com base no gesto
+- Tap: pressionar rapidamente
+- LongPress: pressionar por mais tempo
+- Scale: separar os dedos
+- Drag: arrastra
+- Panning: tocar com a ponta do dedo e mover sem soltar
+- Flick: drag mais rápido
+- Pinch: 'beliscar' usando 2 dedos

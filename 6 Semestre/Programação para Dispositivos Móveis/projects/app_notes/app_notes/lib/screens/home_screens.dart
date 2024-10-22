@@ -1,5 +1,6 @@
+import 'package:app_notes/screens/add_screen.dart';
+import 'package:app_notes/widgets/item_list.dart';
 import 'package:flutter/material.dart';
-
 import '../widgets/app_bar_title.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -20,7 +21,13 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const AppBarTitle(),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder:(context) => const AddScreen(),
+            )
+          ).then((value) => setState((){}));
+        },
         backgroundColor: Colors.orange,
         child: const Icon(
           Icons.add,
@@ -28,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
           size: 32,
         ),
       ),
-      body: const SafeArea(
+      body: SafeArea(
         //captura as dimensones da tela e combina com
         //a estrutura do app
         child: Padding(
@@ -37,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
             right: 16.0,
             bottom: 20.0,
           ),
-          child: null,
+          child: ItemList(),
         ),
       ),
     );

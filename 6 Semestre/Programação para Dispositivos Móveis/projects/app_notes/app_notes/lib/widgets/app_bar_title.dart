@@ -11,7 +11,7 @@ class AppBarTitle extends StatelessWidget {
         Image.asset('images/note-icon.png', height: 35),
         const SizedBox(width: 8),
         const Text('Bedrock Notes',
-            style: TextStyle(color: Colors.yellow, fontSize: 20)),
+            style: TextStyle(color: Colors.orange, fontSize: 20)),
       ],
     );
   }
