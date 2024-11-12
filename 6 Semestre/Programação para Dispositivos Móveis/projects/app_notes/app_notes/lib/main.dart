@@ -1,7 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:app_notes/screens/home_screens.dart';
-
-void main() => runApp(const MyApp());
+import 'package:firebase_core/firebase_core.dart';
+ 
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+      apiKey: "",
+      appId: "", //Id Aplicativo (Ex: 1:291124591333:android:0f52df5d6ed45c3c22437b)
+      messagingSenderId: "", //numero do projeto
+      projectId: "", //codigo do projeto
+    ),
+  );
+ 
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

@@ -150,3 +150,9 @@ GestureDetector:
 - Panning: tocar com a ponta do dedo e mover sem soltar
 - Flick: drag mais rápido
 - Pinch: 'beliscar' usando 2 dedos
+
+
+
+
+
+

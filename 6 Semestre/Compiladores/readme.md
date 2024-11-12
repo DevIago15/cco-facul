@@ -116,3 +116,34 @@
   - Escape: "\"
     - Usa o metacaractere literal ex: "\*"
 
+  ## 22/10/2024 - Imprimir para a semana que vem
+  1 - Dê exemplos, quando possível, ao menos 5, de cadeias reconhecidas pelas ERs abaixo:
+  a) 0*1+ -> 1, 01001, 011, 00001
+  b) (0|1)00(0|1) -> 000, 1001, 000, 1000
+  c) (0*10*10*10*)* -> vazio, 111, 0111, 01011
+  d) (01)* |1 -> vazio,  1, 01, 0101, 010101
+  e) 01*|1 -> 0, 1, 01, 011, 0111
+  f) 0(1*|1) -> 0, 01, 011, 0111, 011111
+
+  2 - Escreva a ER equivalente ao conjunto de cadeias sobre Σ = {0,1} que:
+  a) termine com três 1's consecutivos; -> [(0 | 1 ) * 11]
+  b) tenha ao menos um 1. -> (0 | 1)* 1 (0 | 1)*
+  c) tenha ao máximo um 1 -> 0*10* | 0*
+
+  3 - Escreva uma ER para detectar:
+  a) um número de PIN com qualquer sequência de 4 números; -> [0 - 9]{4}
+  b) um endereço IP na versão IPV4 -> num = [0 - 9] | [1 - 9] [0 - 9] | 1 [0 - 9] [0 - 9] | 2 [0 - 4] [0 - 9] | 2 5 [0 - 4] ou seja num \ . num \ . num \ . num
+  c) uma string -> ".*"
+
+  4 -  Escreva uma ER que represente:
+  a) uma lista de inteiros separados por vírgulas -> [0 - 9]+ (, [0 - 9]*)*
+  b) qualquer número inteiro entre 1 e 20. -> 1 [0 - 9] | 20 | [1 - 9])
+
+  5- Escreva ER para reconhecer: 
+  a) Números inteiros -> -? [0 - 9]+
+  b) números com ponto -> -?[0 - 9] + \ . [0 - 9]+
+  c) números inteiros, reais ou com expoente, tais como 52, -871, 0.01237, -3.75, 6.33e4, -7.48e-2. -> d = [0 - 9]; -?d+(\ . d*)?(e -? d*)?
+  d) Identificadores que comecem com uma letra e possam conter letra, nº e sublinhado. ->  [a - z A - Z] (_|[a - z A-Z]| [0 - 9])*
+  e) as palavras reservadas if, while, do, for, else -> (if | while | do | for | else)
+  f) comentários, entre /* e  */ 
+  g) operadores relacionais <, >, <=, >=, =, <>.
